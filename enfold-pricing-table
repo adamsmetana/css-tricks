@@ -1,0 +1,34 @@
+/* Tweaks to help you customize Pricing and Regular tables built using Enfold elements on Wordpress */
+
+/* Pricing Tables Stying*/
+
+/* Changes icon list color on table */
+.alternate_color .avia-icon-list .iconlist_icon, .main_color .avia-icon-list .iconlist_icon { background-color: #16cc8e;}
+
+/* Main text color */
+#top .main_color input[type='text'] { color: black; }
+
+
+/* Set main row colors */
+.main_color .pricing-table li.avia-heading-row, .main_color .pricing-table li.avia-heading-row .pricing-extra {background-color: #91d4e4; color: #ffffff; border-color: #1e9dbf; font-size: 17px;}
+.main_color .pricing-table li.avia-pricing-row { background-color: #1e9dbf; color: #fff; font-weight: initial; border-color: #1e9dbf;font-size: 13px; line-height: 17px;}
+
+/*Button row customization*/
+.avia-button-row .avia-button { margin-top: 10px; background-color: #ffffff;}
+
+.main_color.iconbox_top .iconbox_icon { background-color: #16cc8e; color: #ffffff; border-color: #507210; }
+
+/* Customize Tabular table elements */
+________________________________________________
+
+/* sets each rows color, based on numbers in parenthesis*/
+
+#samplediv.main_color tr:nth-child(1) { background: #86817c; } 
+#samplediv.main_color tr:nth-child(3,5,7) {background: #ededec;}
+
+#samplediv.main_color tr:nth-child(1) { background: #86817c; } 
+#samplediv.main_color tr:nth-child(3,5,7) {background: #ededec;}
+
+#samplediv.main_color tr:nth-child(1) {background: #86817c;}
+#samplediv.main_color tr:nth-child(3,5) {background: #ededec;}
+
