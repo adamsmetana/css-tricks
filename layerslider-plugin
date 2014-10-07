@@ -1,0 +1,24 @@
+/* Author: Adam Smetana
+For use with Wordpress, Enfold theme, or just the Layerslider plugin */
+
+/* Customizing Layerslider plugin size, placement, thumbnail attributes, etc */
+
+
+.avia-layerslider .ls-thumbnail-wrapper {bottom: 300px; opacity: 1 !important; display: block !important;}*
+
+
+/* Changes thumbnail size, background color, and opacity */
+
+.ls-fullwidth .ls-thumbnail-inner {padding: 0px !important; background: #000000 !important; opacity:65 ;}
+
+
+.ls-fullwidth .ls-thumbnail {top: 155px !important;}
+ 
+
+.ls-wp-fullwidth-container {height: 900px !important;}
+
+
+/* Tweaking the overall Layerslider container placement on page*/
+html * .ls-container img, body * .ls-container img, #ls-global * .ls-container img {padding-top: 10px;}
+
+.ls-thumbnail-inner {margin-top: 15px !important;}
