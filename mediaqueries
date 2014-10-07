@@ -1,0 +1,43 @@
+/* Media Queries
+================================================== */
+
+	/* large screens with 1140px or more */
+	@media only screen and (min-width: 1140px)  {
+		.phone-info { margin-left: 20px; }
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 989px) {
+		#top .av-main-nav > li > a { padding-left: 12px; padding-right: 12px; }
+	}
+
+
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 989px) {
+		#top .av-main-nav > li > a { padding-left: 8px; padding-right: 8px; font-size: 12px !important; }
+		#top .av-main-nav > li#menu-item-5381 > a > span.avia-menu-text { padding: 0 15px; }
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.responsive .logo a, .responsive .logo img{ height:62px !important; max-height:62px !important;}
+		#advanced_menu_toggle, #advanced_menu_hide { margin-top: -33px; }		
+		
+		.responsive .phone-info { float: left; clear: none; text-align: left; width: auto; }
+		.responsive #header .sub_menu {float:right; clear: none; width: auto; text-align: left; }
+		.responsive #header .sub_menu li { border-right:0; padding:0; }
+		.responsive #header .sub_menu li a { text-transform: uppercase; font-size: 13px; }
+		.responsive #header .sub_menu ul.menu li#menu-item-5378 { display: none; }
+		/*.responsive #header .sub_menu {float:left; width: auto; text-align: left; }*/
+	 }
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		#fltabs { display: none; }
+	}
